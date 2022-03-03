@@ -1,7 +1,7 @@
 # Do que se trata este projeto?
 
 Este projeto trata-se de um sistema básico de cadastro de duas entidades simples que condiz no registro de veículos e proprietários com informações básicas de cadastro. Ele foi estruturado de forma que consegue se adaptar facilmente à mudanças, principalmente a parte do BackEnd.
-OCTA-teste é um projeto de modelo padrão para demonstrar a criação de um aplicativo Full Stack de vários contêineres com API Web ASP.NET Core (.NET 3.1) seguindo Arquitetura limpa baseada no DDD e Angular 13. A solução usa o Docker Compose para orquestrar a implantação de toda essa pilha no Docker.
+OCTA-teste é um projeto de modelo padrão para demonstrar a criação de um aplicativo Full Stack de vários contêineres com API Web ASP.NET Core (.NET 3.1) seguindo arquitetura limpa baseada no DDD e Angular 13. A solução usa o Docker Compose para orquestrar a implantação de toda essa pilha no Docker.
 
 # O que a Solução oferece?
 
@@ -19,6 +19,12 @@ A solução é construída tendo em mente os blocos mais fundamentais que uma AP
 - [x] Database Seeding utilizando configuração do Postgresql no Docker Compose
 - [x] Fluent Validation dos dados de entrada dentro das classes Command 
 - [x] Versionamento de API
+
+O que ainda pode ser melhorado no futuro:
+- [ ] Criação de services no Client.
+- [ ] Validação dos dados de entrada no Client.
+- [ ] Tratamento de mensagens de erro.
+- [ ] Criação de paginação, ordenação e filtro nos endpoints da API.  
 
 # Tecnologias utilizadas
 
@@ -59,27 +65,6 @@ Para começar, siga os passos abaixo:
 - O banco será preenchido com alguns dados iniciais apresentados no arquivo 'docker_postgres_init.sql'
 
 ![Teste-OCTA](assets/seed-data-postgres.PNG)
-
-# Não tenho o Docker, como posso rodar a aplicação?
-
-Você também pode executar a solução sem o Docker seguindo as etapas abaixo:
-
-1. Instalar .NET 6 SDK
-2. Instalar a última versão do NodeJS 
-3. Clonar a solução para um diretório local
-4. Navegar até o diretório da API (./API) e rodar o seguinte comando:
-
-```
-> dotnet run --project ./CadastroVeiculos.Application
-```
-
-5. Navegar até o diretório do Client (./Client) e execute os comandos abaixo para executar o aplicativo Angular:
-
-```
-> npm install && npm start
-```
-
-6. Abre o navegador, navegue até http://localhost:9000 e pronto! 
 
 # Usuário padrão:
 
