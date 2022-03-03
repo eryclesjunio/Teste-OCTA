@@ -49,7 +49,7 @@ Para começar, siga os passos abaixo:
 > docker-compose build --force-rm --no-cache && docker-compose up
 ```
 
-7. Quando os containers inicializarem com sucesso, navegue até http://localhost:4200
+7. Quando os containers inicializarem com sucesso, navegue até http://localhost:9000
 
 - Esse processo pode demorar um pouco, pois o Docker irá baixar as imagens do postgres e pgadmin do Docker Hub.
 
@@ -74,7 +74,7 @@ Você também pode executar a solução sem o Docker seguindo as etapas abaixo:
 > npm install && npm start
 ```
 
-6. Abre o navegador, navegue até http://localhost:4200 e pronto! 
+6. Abre o navegador, navegue até http://localhost:9000 e pronto! 
 
 # Usuário padrão:
 
