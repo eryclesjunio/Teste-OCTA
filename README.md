@@ -45,7 +45,7 @@ Docker-Compose é um arquivo de configuração que contém instruções para o D
 
 ![Teste-OCTA](assets/docker-containers-inicializados.PNG)
 
-# Como faço para começar a usar o Docker Compose?
+# Como faço para rodar o projeto com Docker Compose?
 
 Para começar, siga os passos abaixo:
 
