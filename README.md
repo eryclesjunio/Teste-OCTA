@@ -52,9 +52,13 @@ Para começar, siga os passos abaixo:
 
 7. Quando os containers inicializarem com sucesso, navegue até http://localhost:9000
 
+![Teste-OCTA](assets/docker-containers-inicializados.png)
+
 - Esse processo pode demorar um pouco, pois o Docker irá baixar as imagens do postgres e pgadmin do Docker Hub.
 
 - O banco será preenchido com alguns dados iniciais apresentados no arquivo 'docker_postgres_init.sql'
+
+![Teste-OCTA](assets/seed-data-postgres.png)
 
 # Não tenho o Docker, como posso rodar a aplicação?
 
