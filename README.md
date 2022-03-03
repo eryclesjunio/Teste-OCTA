@@ -23,7 +23,8 @@ A solução é construída tendo em mente os blocos mais fundamentais que uma AP
 O que ainda pode ser melhorado no futuro:
 - [ ] Criação de services no Client.
 - [ ] Validação dos dados de entrada no Client.
-- [ ] Tratamento de mensagens de erro.  
+- [ ] Tratamento de mensagens de erro.
+- [ ] Criação de paginação, ordenação e filtro nos endpoints da API.  
 
 # Tecnologias utilizadas
 
