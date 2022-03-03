@@ -1,3 +1,5 @@
+![Teste-OCTA](assets/registros-proprietarios.PNG)
+
 # Do que se trata este projeto?
 
 Este projeto trata-se de um sistema básico de cadastro de duas entidades simples que condiz no registro de veículos e proprietários com informações básicas de cadastro. Ele foi estruturado de forma que consegue se adaptar facilmente à mudanças, principalmente a parte do BackEnd.
