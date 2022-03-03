@@ -17,6 +17,7 @@ A solução é construída tendo em mente os blocos mais fundamentais que uma AP
 - [x] Implementação do AutoMapper para a conversão Entity-to-DTO
 - [x] Deploy no Docker com apenas um comando com Docker Compose
 - [x] Database Seeding utilizando configuração do Postgresql no Docker Compose
+- [x] Fluent Validation dos dados de entrada dentro das classes Command 
 - [x] Versionamento de API
 
 # Tecnologias utilizadas
