@@ -1,7 +1,7 @@
 # Do que se trata este projeto?
 
 Este projeto trata-se de um sistema básico de cadastro de duas entidades simples que condiz no registro de veículos e proprietários com informações básicas de cadastro. Ele foi estruturado de forma que consegue se adaptar facilmente à mudanças, principalmente a parte do BackEnd.
-OCTA-teste é um projeto de modelo padrão para demonstrar a criação de um aplicativo Full Stack de vários contêineres com API Web ASP.NET Core (.NET 3.1) seguindo Arquitetura limpa baseada no DDD e Angular 13. A solução usa o Docker Compose para orquestrar a implantação de toda essa pilha no Docker.
+OCTA-teste é um projeto de modelo padrão para demonstrar a criação de um aplicativo Full Stack de vários contêineres com API Web ASP.NET Core (.NET 3.1) seguindo arquitetura limpa baseada no DDD e Angular 13. A solução usa o Docker Compose para orquestrar a implantação de toda essa pilha no Docker.
 
 # O que a Solução oferece?
 
