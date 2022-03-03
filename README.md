@@ -60,27 +60,6 @@ Para começar, siga os passos abaixo:
 
 ![Teste-OCTA](assets/seed-data-postgres.PNG)
 
-# Não tenho o Docker, como posso rodar a aplicação?
-
-Você também pode executar a solução sem o Docker seguindo as etapas abaixo:
-
-1. Instalar .NET 6 SDK
-2. Instalar a última versão do NodeJS 
-3. Clonar a solução para um diretório local
-4. Navegar até o diretório da API (./API) e rodar o seguinte comando:
-
-```
-> dotnet run --project ./CadastroVeiculos.Application
-```
-
-5. Navegar até o diretório do Client (./Client) e execute os comandos abaixo para executar o aplicativo Angular:
-
-```
-> npm install && npm start
-```
-
-6. Abre o navegador, navegue até http://localhost:9000 e pronto! 
-
 # Usuário padrão:
 
 As configurações do Docker Compose adiciona um usuário para o PgAdmin e você pode usar as credenciais abaixo para acessar o banco criado:
