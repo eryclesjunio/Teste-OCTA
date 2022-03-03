@@ -20,6 +20,11 @@ A solução é construída tendo em mente os blocos mais fundamentais que uma AP
 - [x] Fluent Validation dos dados de entrada dentro das classes Command 
 - [x] Versionamento de API
 
+O que ainda pode ser melhorado no futuro:
+- [x] Criação de services no Client.
+- [x] Validação dos dados de entrada no Client.
+- [x] Tratamento de mensagens de erro.  
+
 # Tecnologias utilizadas
 
 * ASP.NET Core (.NET 3.1) Web API
