@@ -1,0 +1,68 @@
+version: '3.4'
+
+services: 
+
+  client:
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    ports: 
+      - "9000:80"
+    depends_on:
+      - "api"
+
+  api:
+    build: 
+      context: ./API
+      dockerfile: Dockerfile
+    ports: 
+      - "5000:80"
+    depends_on:
+      - "postgresdb"
+    environment:
+      - DB_CONNECTION_STRING=Host=postgresdb;Port=5432;Database=cadastroDb;Username=admin;Password=admin1234;
+
+  postgresdb:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+      - dbvolume:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin1234
+      - POSTGRES_DB=cadastroDb
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
+      - PGADMIN_DEFAULT_PASSWORD=admin1234
+    ports:
+      - "5050:80"
+    restart: always
+    volumes:
+      - pgadmin:/root/.pgadmin
+
+volumes:
+  dbvolume:
+  pgadmin:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
