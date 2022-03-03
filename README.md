@@ -1,4 +1,4 @@
-![Teste-OCTA](assets/registros-proprietarios.PNG)
+![Teste-OCTA](assets/registros-proprietarios.png)
 
 # Do que se trata este projeto?
 
