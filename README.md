@@ -35,6 +35,8 @@ A solução é construída tendo em mente os blocos mais fundamentais que uma AP
 
 Docker-Compose é um arquivo de configuração que contém instruções para o Docker sobre como os serviços devem ser criados a partir dos respectivos Dockerfiles. Enquanto um Dockerfile visa criar e personalizar contêineres de aplicativos por meio de imagens e instruções básicas, o arquivo Docker-Compose funciona através do Dockerfile e ajuda os desenvolvedores na execução de contêineres docker com especificações complexas de tempo de execução, como portas, volumes e assim por diante.
 
+![Teste-OCTA](assets/docker-containers-inicializados.PNG)
+
 # Como faço para começar a usar o Docker Compose?
 
 Para começar, siga os passos abaixo:
@@ -52,13 +54,11 @@ Para começar, siga os passos abaixo:
 
 7. Quando os containers inicializarem com sucesso, navegue até http://localhost:9000
 
-![Teste-OCTA](assets/docker-containers-inicializados.png)
-
 - Esse processo pode demorar um pouco, pois o Docker irá baixar as imagens do postgres e pgadmin do Docker Hub.
 
 - O banco será preenchido com alguns dados iniciais apresentados no arquivo 'docker_postgres_init.sql'
 
-![Teste-OCTA](assets/seed-data-postgres.png)
+![Teste-OCTA](assets/seed-data-postgres.PNG)
 
 # Não tenho o Docker, como posso rodar a aplicação?
 
